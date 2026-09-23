@@ -29,7 +29,7 @@
   </header>
 
   <main class="main">
-    <section class="page-hero">
+    <!--<section class="page-hero">
       <p class="page-eyebrow page-eyebrow-home">Welcome</p>
       <h1>Appliance Energy Consumption</h1>
       <p class="intro">
@@ -38,7 +38,15 @@
         consumption patterns of common household appliances in the
         Australian market.
       </p>
-    </section>
+    </section>-->
+
+    <h1>Appliance Energy Consumption</h1>
+    <div id="content"></div>
+    <!-- Give the SVG a size so shapes can be seen -->
+    <svg width="300" height="150"></svg>
+    <!-- Load D3 first, then your D3 code file -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="energy-d3.js"></script>
 
     <!-- Utility buttons -->
     <a href="#" class="scroll-btn"><img src="images/scroll.png" alt="Scroll To The Top"></a>
