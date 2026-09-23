@@ -44,9 +44,9 @@
     <div id="content"></div>
     <!-- Give the SVG a size so shapes can be seen -->
     <svg width="300" height="150"></svg>
-    <!-- Load D3 first, then your D3 code file -->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="energy-d3.js"></script>
+
+    <!-- NEW: Container for T04-3 chart -->
+    <div class="responsive-svg-container"></div>
 
     <!-- Utility buttons -->
     <a href="#" class="scroll-btn"><img src="images/scroll.png" alt="Scroll To The Top"></a>
@@ -75,5 +75,12 @@
     </div>
     <div class="legal">© 2026 Wee Yee Heng. All rights reserved.</div>
   </footer>
+
+  <!-- D3 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- NEW: JS for T04-3 only -->
+  <script src="t04-3-bars.js"></script>
+  <!-- Old T04-2 demo (temporarily disabled) -->
+  <!-- <script src="energy-d3.js"></script> -->
 </body>
 </html>
