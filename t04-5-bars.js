@@ -4,7 +4,7 @@ const createBarChart = (data) => {
     const viewH = Math.max(220, data.length * 28);
 
     // Reserve space for category and value labels
-    const labelX = 170;
+    const labelX = 200;
     const rightPadding = 50;
     const chartWidth = viewW - labelX - rightPadding;
 
